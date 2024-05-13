@@ -1,5 +1,5 @@
 let typed = new Typed(".auto-input", {
-    strings: ["Full Stack Developer", "React Developer", "UX / UI Designer", "Web Application Developer", "Java Developer"],
+    strings: ["Full Stack Developer", "Backend Developer", "UX / UI Designer", "Web Application Developer", "Java Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     loop: true
