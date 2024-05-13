@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: smooth; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --jet-color: rgb(8, 8, 8);
+    --secong-bg-color: #131313;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+
+body {
+    background-color: var(--jet-color);
+    color: var(--text-color);
+    position: relative;
+}
+
+
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(8, 8, 8, 0.5);
+}
+
+#navbarNav a {
+    font-weight: 500;
+    color: var(--text-color);
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+#navbarNav a:hover {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: var(--main-color) !important;
+    border-bottom: 3px solid var(--main-color) !important;
+    background-color: transparent !important;
+    /* Change color when active */
+}
+
+#navbarNav a:active {
+    color: var(--main-color);
+    border-bottom: 3px solid var(--main-color);
+}
+
+#about-content {
+    background-color: var(--secong-bg-color);
+
+}
+
+.progress-bar {
+    background-color: #00ffff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #080808;
+    text-align: center;
+    transition: width 5s ease;
+}
+
+
+.lund {
+    width: 100%;
+    /* Set the width of the container div */
+    height: auto;
+    /* This will make sure the height adjusts proportionally */
+}
+
+.lund img {
+    width: 100%;
+    /* Set the width of the image to 100% of its containing div */
+    height: 250px;
+    /* This will maintain the aspect ratio of the image */
+    display: block;
+    /* This ensures that the image behaves as a block element */
+    object-fit: cover;
+    /* Center the image horizontally within the container */
+}
+
+.bg-card {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+}
+
+span {
+    color: #00ffff;
+}
+
+.text-color-main {
+    color: #00ffff;
+}
+
+.text-color-white{
+    color: white;
+}
+
+.naz {
+    border: 2px solid white;
+}
